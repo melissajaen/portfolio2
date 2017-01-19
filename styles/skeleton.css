@@ -437,8 +437,8 @@ body > header {
     width: 100%;
 }
 
-.logo {
-    margin-top: 1em;
+.logo img {
+    padding-top: 2em;
 }
 
 header nav {
@@ -475,12 +475,32 @@ header .headertext {
 }
 
 header h1 {
-    color:#fff;
-    font-weight:300;
-    font-size:4.5em;
+    color:#000;
+    font-weight:500;
+    font-size:5em;
     line-height: 1;
-    text-shadow: 0 1px 2px rgba(0,0,0,.2);
+    margin-top: 3em;
+    margin-bottom: .5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h2 {
+    color:#000;
+    font-weight:300;
+    font-size:3.5em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+    
+header h3 {
+    color:#000;
+    font-weight:300;
+    font-size:1.4em;
+    line-height: 1;
     margin-bottom: 0.3em;
+    text-align: center;
 }
 
 header p {
@@ -496,6 +516,23 @@ header p strong {
 }
 
 /* Projects */
+
+.salm {background: #fff;}
+.salm-text {background: #34D1BF;}
+.aqui {background: #fff;}
+.aqui-text {background: #1B1B1E;}
+.blocbox {background: #fff;}
+.blocbox-text {background: #34D1Bf;}
+
+.projects .container {
+    display:flex;
+    height: 640px;  
+}
+
+.box {
+    width: 640px;
+}
+    
 
 .u-full-width {
   width: 100%;
@@ -546,7 +583,6 @@ div {
 }
 
 
-
 .blocbox .title {
     background-color: #34D1BF;
     text-align: center;
@@ -556,5 +592,88 @@ div {
 }
 
 
+/* SALM Case study */ 
+
 
  
+.problem h2 {
+    color:#D72638;
+    font-weight:400;
+    font-size:3em;
+    line-height: 1;
+    margin-bottom: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.problem h3 {
+    color:#000;
+    font-weight:400;
+    font-size:2em;
+    line-height: 1;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.solution h2 {
+    color:#34D1BF;
+    font-weight:400;
+    font-size:3em;
+    line-height: 1;
+    padding-top: 2em;
+    margin-bottom: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.red hr {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-color: #D72638;
+    background-color: #D72638;
+    height: 3px;
+}
+
+.red h3 {
+    color:#000;
+    font-weight:400;
+    font-size:2em;
+    line-height: 1;
+    margin-top: 3em;
+    margin-bottom: 0.3em;
+    text-align: left;
+}
+
+.red img {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+
+.teal hr {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-color: #34D1BF;
+    background-color: #34D1BF;
+    height: 3px;
+}
+
+.teal h3 {
+    color:#000;
+    font-weight:400;
+    font-size:2em;
+    line-height: 1;
+    margin-top: 3em;
+    margin-bottom: 0.3em;
+    text-align: left;
+}
+
+.teal img {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
