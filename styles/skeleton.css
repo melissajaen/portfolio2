@@ -638,6 +638,27 @@ div {
     margin-bottom: 5.5em;
 }
 
+.blocboxcasestudybg {
+   background-image:url("../images/blocbox_hero.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
+}
+ 
+.blocboxcasestudybg h1 {
+    color: #fff;
+    margin-top: 2em; 
+} 
+
+.blocboxcasestudybg h2 {
+    color: #fff;
+}
+
+.blocboxcasestudybg h3 {
+    color:#fff;
+    margin-bottom: 5.5em;
+}
+
 .problem h2 {
     color:#D72638;
     font-weight:400;
