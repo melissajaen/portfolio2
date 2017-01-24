@@ -547,6 +547,7 @@ div {
 }
 
 
+
 .salm .img-left {
     background-color: #fff;
     max-width:50%;
@@ -592,10 +593,51 @@ div {
 }
 
 
-/* SALM Case study */ 
+/* Case studies */ 
 
 
+.salmcasestudybg {
+   background-image:url("../images/hero.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
+}
  
+.salmcasestudybg h1 {
+    color: #fff;
+    margin-top: 2em; 
+} 
+
+.salmcasestudybg h2 {
+    color: #fff;
+}
+
+.salmcasestudybg h3 {
+    color:#fff;
+    margin-bottom: 5.5em;
+}
+
+.aquicasestudybg {
+   background-image:url("../images/aqui_hero.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
+}
+ 
+.aquicasestudybg h1 {
+    color: #fff;
+    margin-top: 2em; 
+} 
+
+.aquicasestudybg h2 {
+    color: #fff;
+}
+
+.aquicasestudybg h3 {
+    color:#fff;
+    margin-bottom: 5.5em;
+}
+
 .problem h2 {
     color:#D72638;
     font-weight:400;
@@ -684,6 +726,16 @@ div {
     margin-right: auto;
 }
 
+.footer h4 {
+    align-content: center;
+    text-align: center;
+}
+
+.bottomnav h5 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
 .green h1 {
     background-color: #34D1BF;
     color: #fff;
@@ -697,9 +749,29 @@ div {
     text-align: center;
 }
 
-.green div {
+.green  {
     background-color: #34D1BF;
+    height: 635px; 
 }
+
+.grey h1 {
+    background-color: #1B1B1E;
+    color: #fff;
+    text-align: center;
+}
+
+.grey p {
+    background-color: #1B1B1E;
+    color: #fff;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.grey div {
+    background-color: #1B1B1E;
+    height: 635px;
+}
+    
     
     
 
