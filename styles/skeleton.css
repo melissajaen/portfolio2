@@ -684,3 +684,22 @@ div {
     margin-right: auto;
 }
 
+.green h1 {
+    background-color: #34D1BF;
+    color: #fff;
+    text-align: center;
+}
+
+.green p {
+    background-color: #34D1BF;
+    color: #fff;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.green div {
+    background-color: #34D1BF;
+}
+    
+    
+
