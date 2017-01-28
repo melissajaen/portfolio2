@@ -455,7 +455,8 @@ header nav ul li a {
     color: #1B1B1E;
     text-transform:none;
     text-decoration:none;
-    padding:0.5em 1em;
+    padding:1em 1em;
+    
 }
 
 header nav ul li a .btn {
@@ -515,87 +516,92 @@ header p strong {
     color:#fff;
 }
 
-/* Projects */
-
-.salm {background: #fff;}
-.salm-text {background: #34D1BF;}
-.aqui {background: #fff;}
-.aqui-text {background: #1B1B1E;}
-.blocbox {background: #fff;}
-.blocbox-text {background: #34D1Bf;}
-
-.projects .container {
-    display:flex;
-    height: 640px;  
+header img {
+    margin-top: 15%;
+    padding-bottom: 25%;
 }
 
-.box {
-    width: 640px;
-}
-    
+/*  Projects */
 
-.u-full-width {
-  width: 100%;
-  box-sizing: border-box; }
-
-.salm, .aqui, .blocbox {
-    position: relative;
-}
-
-div {
-    display: block;
-}
-
-
-.salm .img-left {
-    background-color: #fff;
-    max-width:50%;
-    height:auto;
-}
-
-.salm .title {
+.projects button {
     background-color: #34D1BF;
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    padding: 5em;
+    border-color: #34D1BF;
 }
 
+/* About */
 
-.aqui .img-right {
-    background-color: #fff;
-    max-width:50%;
-    height:auto;
+.about p {
+    margin-top: 1em;
+    padding-bottom: 2em;
 }
 
-.aqui .title {
-    background-color: #1B1B1E;
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    padding: 5em;
+/* Case studies */ 
+
+
+
+.salmcasestudybg {
+   background-image:url("../images/hero.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
 }
-
-.blocbox .img-left {
-    background-color: #fff;
-    max-width:50%;
-    height:auto;
-}
-
-
-.blocbox .title {
-    background-color: #34D1BF;
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    padding: 5em;
-}
-
-
-/* SALM Case study */ 
-
-
  
+.salmcasestudybg h1 {
+    color: #fff;
+    margin-top: 2em; 
+} 
+
+.salmcasestudybg h2 {
+    color: #fff;
+}
+
+.salmcasestudybg h3 {
+    color:#fff;
+    margin-bottom: 5.5em;
+}
+
+.aquicasestudybg {
+   background-image:url("../images/aqui_hero.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
+}
+ 
+.aquicasestudybg h1 {
+    color: #fff;
+    margin-top: 2em; 
+} 
+
+.aquicasestudybg h2 {
+    color: #fff;
+}
+
+.aquicasestudybg h3 {
+    color:#fff;
+    margin-bottom: 5.5em;
+}
+
+.blocboxcasestudybg {
+   background-image:url("../images/blocbox_hero.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
+}
+ 
+.blocboxcasestudybg h1 {
+    color: #fff;
+    margin-top: 2em; 
+} 
+
+.blocboxcasestudybg h2 {
+    color: #fff;
+}
+
+.blocboxcasestudybg h3 {
+    color:#fff;
+    margin-bottom: 5.5em;
+}
+
 .problem h2 {
     color:#D72638;
     font-weight:400;
@@ -649,8 +655,12 @@ div {
 }
 
 .red img {
+    display: block;
     margin-top: 2em;
     margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
@@ -673,7 +683,82 @@ div {
 }
 
 .teal img {
+    display: block;
     margin-top: 2em;
     margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.footer h4 {
+    align-content: center;
+    text-align: center;
+}
+
+.bottomnav h5 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.green h1 {
+    background-color: #34D1BF;
+    color: #fff;
+    text-align: center;
+}
+
+.green p {
+    background-color: #34D1BF;
+    color: #fff;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.green  {
+    background-color: #34D1BF;
+    height: 635px; 
+}
+
+.grey h1 {
+    background-color: #1B1B1E;
+    color: #fff;
+    text-align: center;
+}
+
+.grey p {
+    background-color: #1B1B1E;
+    color: #fff;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.grey div {
+    background-color: #1B1B1E;
+    height: 635px;
+}
+    
+    
+.float-right {
+                          float: right;
+};
+
+.float-left {
+        float: left;
+};
+    
+
+.about ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.about ul li a {
+    color: #D72638;
+    text-transform:none;
+    text-decoration:none;
+    padding:0.5em 1em;
+}
+
+.text p {
+    font-size: 1em;
+}
+    
