@@ -441,7 +441,7 @@ body > header {
     padding-top: 2em;
 }
 
-wrap {
+.wrap {
   position: fixed;
   background-color: #fff;
 }
