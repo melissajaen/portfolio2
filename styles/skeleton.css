@@ -444,7 +444,7 @@ body > header {
 header nav {
     text-align: right;
     margin-top: 2em;
-  position: fixed;
+  
 }
 
 header nav ul li {
