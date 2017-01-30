@@ -441,10 +441,15 @@ body > header {
     padding-top: 2em;
 }
 
+wrap {
+  position: fixed;
+  background-color: #fff;
+}
+
+
 header nav {
     text-align: right;
     margin-top: 2em;
-  position: fixed;
   
 }
 
