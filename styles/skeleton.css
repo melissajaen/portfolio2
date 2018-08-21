@@ -45,14 +45,14 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 60%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 60%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -438,7 +438,7 @@ body > header {
 }
 
 .logo img {
-    padding-top: 2em;
+
 }
 
 header nav {
@@ -478,12 +478,12 @@ header .headertext {
 header h1 {
     color:#000;
     font-weight:500;
-    font-size:5em;
-    line-height: 1;
-    margin-top: 3em;
-    margin-bottom: .5em;
+    font-size:3em;
+    line-height: 2em;
+    margin-top: 4.5em;
+    margin-bottom: .1em;
     text-align: center;
-    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 header h2 {
@@ -521,6 +521,8 @@ header img {
     padding-bottom: 25%;
 }
 
+    
+
 /*  Projects */
 
 .projects button {
@@ -537,8 +539,6 @@ header img {
 
 /* Case studies */ 
 
-
-
 .salmcasestudybg {
    background-image:url("../images/hero.png");
    background-repeat: no-repeat;
@@ -549,6 +549,8 @@ header img {
 .salmcasestudybg h1 {
     color: #fff;
     margin-top: 2em; 
+    text-transform: uppercase;
+    font-size: 5em;
 } 
 
 .salmcasestudybg h2 {
@@ -558,6 +560,7 @@ header img {
 .salmcasestudybg h3 {
     color:#fff;
     margin-bottom: 5.5em;
+    letter-spacing: 2px;
 }
 
 .aquicasestudybg {
@@ -570,6 +573,8 @@ header img {
 .aquicasestudybg h1 {
     color: #fff;
     margin-top: 2em; 
+    text-transform: uppercase;
+    font-size: 5em;
 } 
 
 .aquicasestudybg h2 {
@@ -579,6 +584,7 @@ header img {
 .aquicasestudybg h3 {
     color:#fff;
     margin-bottom: 5.5em;
+    letter-spacing: 2px;
 }
 
 .blocboxcasestudybg {
@@ -591,6 +597,8 @@ header img {
 .blocboxcasestudybg h1 {
     color: #fff;
     margin-top: 2em; 
+    text-transform: uppercase;
+    font-size: 5em;
 } 
 
 .blocboxcasestudybg h2 {
@@ -600,39 +608,41 @@ header img {
 .blocboxcasestudybg h3 {
     color:#fff;
     margin-bottom: 5.5em;
+    letter-spacing: 2px;
 }
 
 .problem h2 {
     color:#D72638;
-    font-weight:400;
-    font-size:3em;
+    font-weight:900;
+    font-size:1.3em;
     line-height: 1;
-    margin-bottom: 0.3em;
-    text-align: center;
+    margin-bottom: .3em;
+    text-align: left;
     text-transform: uppercase;
+    letter-spacing: 2;
     
 }
 
 .problem h3 {
     color:#000;
     font-weight:400;
-    font-size:2em;
+    font-size:2.8em;
     line-height: 1;
     margin-top: 1em;
     margin-bottom: 0.3em;
-    text-align: center;
-    text-transform: uppercase;
+    text-align: left;
 }
 
 .solution h2 {
     color:#34D1BF;
-    font-weight:400;
-    font-size:3em;
+    font-weight:900;
+    font-size: 1.3em;
     line-height: 1;
     padding-top: 2em;
-    margin-bottom: 0.3em;
-    text-align: center;
+    margin-bottom: 0.6em;
+    text-align: left;
     text-transform: uppercase;
+    letter-spacing: 2;
 }
 
 
@@ -760,5 +770,10 @@ header img {
 
 .text p {
     font-size: 1em;
+    line-height: 2em;
+}
+
+p {
+    line-height: 2em;
 }
     
